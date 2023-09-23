@@ -1,0 +1,23 @@
+{
+    "contact": {
+        "firstName": "Dixie",
+        "lastName": "Sustal",
+        "email": "fakeemail@trial.com",
+        "favoriteColor": "Purple",
+        "birhday": "11/16/1998"
+    },
+    "contactTwo": {
+        "firstName": "James",
+        "lastName": "Abella",
+        "email": "fakejames@trial.com",
+        "favoriteColor": "Red",
+        "birhday": "04/02/2013"
+    },
+    "contactThree": {
+        "firstName": "Kim",
+        "lastName": "Dela Cruz",
+        "email": "fakeKim@trial.com",
+        "favoriteColor": "Blue",
+        "birhday": "02/09/2001"
+    }
+}
