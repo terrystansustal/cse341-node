@@ -14,6 +14,10 @@ GET http://localhost:8080/contacts/650e612f80acea7b1efe23f4
 
 // Render
 
+
+###
+GET https://cse341-8296.onrender.com/contacts
+
 ###
 GET https://cse341-8296.onrender.com/contacts/650e600880acea7b1efe23f1
 
