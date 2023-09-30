@@ -64,3 +64,18 @@ content-type: application/json
     "favoriteColor": "Blue",
     "birthday": "06/20/1995"
 }
+
+###
+PUT https://cse341-8296.onrender.com/contacts/65178516101465435f341d69 HTTP/1.1
+content-type: application/json
+
+{
+    "firstName": "Ronkyle",
+    "lastName": "Sustal",
+    "email": "testRonnie@test.com",
+    "favoriteColor": "Red",
+    "birthday": "03/15/2000"
+}
+
+###
+DELETE https://cse341-8296.onrender.com/contacts/65178516101465435f341d69 HTTP/1.1
