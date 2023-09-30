@@ -1,4 +1,4 @@
-// Local host
+// Local host ------------
 
 ###
 GET http://localhost:8080/contacts
@@ -12,8 +12,34 @@ GET http://localhost:8080/contacts/650e60e780acea7b1efe23f2
 ###
 GET http://localhost:8080/contacts/650e612f80acea7b1efe23f4
 
-// Render
+###
+POST http://localhost:8080/contacts/ HTTP/1.1
+content-type: application/json
 
+{
+    "firstName": "Harry",
+    "lastName": "Mans",
+    "email": "testemail@test.com",
+    "favoriteColor": "Yellow",
+    "birthday": "05/08/1988"
+}
+
+###
+PUT http://localhost:8080/contacts/6516459e6febf0c43bc410e9 HTTP/1.1
+content-type: application/json
+
+{
+    "firstName": "Jerry",
+    "lastName": "Bond",
+    "email": "testemail@test.com",
+    "favoriteColor": "Yellow",
+    "birthday": "05/08/1988"
+}
+
+###
+DELETE http://localhost:8080/contacts/65164ef214650f2bb54051f3 HTTP/1.1
+
+// Render Links -------------
 
 ###
 GET https://cse341-8296.onrender.com/contacts
@@ -26,3 +52,15 @@ GET https://cse341-8296.onrender.com/contacts/650e60e780acea7b1efe23f2
 
 ###
 GET https://cse341-8296.onrender.com/contacts/650e612f80acea7b1efe23f4
+
+###
+POST https://cse341-8296.onrender.com/contacts HTTP/1.1
+content-type: application/json
+
+{
+    "firstName": "Nniroe",
+    "lastName": "Sustal",
+    "email": "testnniroe@test.com",
+    "favoriteColor": "Blue",
+    "birthday": "06/20/1995"
+}
