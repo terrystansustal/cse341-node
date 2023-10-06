@@ -58,11 +58,11 @@ POST https://cse341-8296.onrender.com/contacts HTTP/1.1
 content-type: application/json
 
 {
-    "firstName": "Nniroe",
+    "firstName": "Blake",
     "lastName": "Sustal",
-    "email": "testnniroe@test.com",
-    "favoriteColor": "Blue",
-    "birthday": "06/20/1995"
+    "email": "testBlake@test.com",
+    "favoriteColor": "Orange",
+    "birthday": "09/28/1985"
 }
 
 ###
